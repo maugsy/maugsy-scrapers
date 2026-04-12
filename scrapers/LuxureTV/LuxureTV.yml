@@ -1,0 +1,9 @@
+name: LuxureTV
+sceneByURL:
+  - action: script
+    url:
+      - en.luxuretv.com/videos/
+    script:
+      - python
+      - LuxureTV.py
+      - scrapeURL
