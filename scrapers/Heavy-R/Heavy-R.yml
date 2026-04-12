@@ -1,9 +1,9 @@
-name: DarknessPorn
+name: Heavy-R
 sceneByURL:
   - action: script
     url:
-      - darknessporn.com
+      - heavy-r.com/video/
     script:
       - python
-      - DarknessPorn.py
+      - Heavy-R.py
       - scrapeURL
