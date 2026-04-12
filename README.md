@@ -19,5 +19,4 @@ make sure you have the following python packages installed:
 - lxml
 - requests
 
-```pip install cloudscraper lxml requests
-```
+```pip install cloudscraper lxml requests```
