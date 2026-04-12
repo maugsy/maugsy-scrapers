@@ -1,0 +1,9 @@
+name: DarknessPorn
+sceneByURL:
+  - action: script
+    url:
+      - darknessporn.com
+    script:
+      - python
+      - DarknessPorn.py
+      - scrapeURL
