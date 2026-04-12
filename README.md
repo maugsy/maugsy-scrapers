@@ -1,24 +1,18 @@
-# Template for creating Stash scrapers source index
+# maugsy-scrapers
 
-This template allows you to create a new repository with a few clicks with preconfigured GitHub action to publish your scrapers source index. 
-_This assumes you already know how to create scrapers for Stash. If you don't, first read [this](https://docs.stashapp.cc/in-app-manual/scraping/scraperdevelopment/)._
+a collection of stash scrapers made by maugsy
 
-## How to use it?
+## source index URL
+https://maugsy.github.io/maugsy-scrapers/main/index.yml
 
-1. Click **Use this template** > **Create a new repository**. 
-1. Choose a repository name and click **Create repository**.
-1. Open **Settings** and head to **Pages**.
-1. Under Build and deployment select the Source as GitHub Actions.
+## scrapers
+- **Heavy-R** - scrapes title, description, date, tags, studio and thumbnail
+- **LuxureTV** - scrapes title, description, tags and thumbnail
+- **DarknessPorn** - scrapes title, date, tags and thumbnail
 
-Now add your scrapers to [scrapers](/scrapers) directory and they will be automatically published to the source index.
+## installation
+in stash, go to **Settings → Metadata Providers → Add Source** and paste the source index URL above !
 
-Source index URL: [`https://<your-username>.github.io/<repository-name>/main/index.yml`](https://<your-username>.github.io/<repository-name>/main/index.yml)
-
-## Share your scrapers
-
-- [Create a new topic](https://discourse.stashapp.cc/t/-/146) for your scraper on the community forum.
-- [Add your source index to the list](https://discourse.stashapp.cc/t/-/834) on the Stash community forum.
-
-## License
-
-The default license is set to [AGPL-3.0](/LICENCE). Before publishing any scrapers you can change it.
+## dependencies
+make sure you have the following Python packages installed:
+pip install cloudscraper lxml requests
