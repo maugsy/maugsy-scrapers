@@ -3,7 +3,7 @@
 a collection of stash scrapers made by maugsy
 
 ## source index URL
-https://maugsy.github.io/maugsy-scrapers/main/index.yml
+<https://maugsy.github.io/maugsy-scrapers/main/index.yml>
 
 ## scrapers
 - **Heavy-R** - scrapes title, description, date, tags, studio (uploader), and thumbnail
@@ -11,8 +11,13 @@ https://maugsy.github.io/maugsy-scrapers/main/index.yml
 - **DarknessPorn** - scrapes title, date, tags, and thumbnail
 
 ## installation
-in stash, go to **Settings → Metadata Providers → Add Source** and paste the source index URL above !
+in stash, go to **Settings → Metadata Providers → Add Source** and paste the source index URL above
 
 ## dependencies
-make sure you have the following Python packages installed:
-pip install cloudscraper lxml requests
+make sure you have the following python packages installed:
+- cloudscraper
+- lxml
+- requests
+
+```pip install cloudscraper lxml requests
+```
