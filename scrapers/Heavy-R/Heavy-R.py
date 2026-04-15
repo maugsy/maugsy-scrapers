@@ -34,9 +34,9 @@ def scrape_url(url):
         pass
 
     try:
-        desc = tree.xpath('//h1[@class="video-title"]/following-sibling::p[1]/text()')
+        desc = tree.xpath('//h1[@class="video-title"]/following-sibling::p[1]//text()')
         if desc:
-            result['Details'] = desc[0].strip()
+            result['Details'] = ' '.join(t.strip() for t in desc if t.strip())
     except Exception:
         pass
 
