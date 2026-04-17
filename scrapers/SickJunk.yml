@@ -1,0 +1,9 @@
+name: SickJunk
+sceneByURL:
+  - action: script
+    url:
+      - sickjunk.com
+    script:
+      - python
+      - SickJunk.py
+      - scrapeURL
