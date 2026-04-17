@@ -9,6 +9,7 @@ a collection of stash scrapers made by maugsy
 - **Heavy-R** - scrapes title, description, date, tags, studio (uploader), and thumbnail
 - **LuxureTV** - scrapes title, description, tag, and thumbnail
 - **DarknessPorn** - scrapes title, date, tags, and thumbnail
+- **SickJunk** - scrapes title, date, tags, and thumbnail
 
 ## installation
 in stash, go to **Settings → Metadata Providers → Add Source** and paste the source index URL above
