@@ -1,21 +1,21 @@
 # maugsy-scrapers
 
-a collection of stash scrapers made by maugsy
+A collection of [Stash](https://github.com/stashapp/stash) scrapers made by maugsy
 
-## source index URL
+## Source index URL
 <https://maugsy.github.io/maugsy-scrapers/main/index.yml>
 
-## scrapers
-- **DarknessPorn** - scrapes title, date, tags, and thumbnail
-- **Heavy-R** - scrapes title, description, date, tags, studio (uploader), and thumbnail
-- **LuxureTV** - scrapes title, description, tag, and thumbnail
-- **SickJunk** (*new in v1.1*) - scrapes title, date, tags, and thumbnail
+## Scrapers
+- **DarknessPorn** - scrapes **Title**, **Date**, **Tags**, and **Thumbnail image**
+- **Heavy-R** - scrapes **Title**, **Description**, **Date**, **Tags**, **Studio** (uploader), and **Thumbnail image**
+- **LuxureTV** - scrapes **Title**, **Description**, **Tags**, and **Thumbnail image**
+- **SickJunk** (*New in v1.1*) - scrapes **Title**, **Description**, **Date**, **Tags**, and **Thumbnail image**
 
-## installation
-in stash, go to **Settings → Metadata Providers → Add Source** and paste the source index URL above
+## Installation
+In Stash, go to **Settings → Metadata Providers → Add Source** and paste the source index URL above
 
-## dependencies
-make sure you have the following python packages installed:
+## Dependencies
+Make sure you have the following Python packages installed:
 - cloudscraper
 - lxml
 - requests
