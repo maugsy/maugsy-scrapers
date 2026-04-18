@@ -1,0 +1,9 @@
+name: PunishWorld
+sceneByURL:
+  - action: script
+    url:
+      - punishworld.com
+    script:
+      - python
+      - PunishWorld.py
+      - scrapeURL
