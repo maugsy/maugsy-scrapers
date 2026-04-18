@@ -9,7 +9,8 @@ A collection of [Stash](https://github.com/stashapp/stash) scrapers made by maug
 - **DarknessPorn** - scrapes **Title**, **Date**, **Tags**, and **Thumbnail image**
 - **Heavy-R** - scrapes **Title**, **Description**, **Date**, **Tags**, **Studio** (uploader), and **Thumbnail image**
 - **LuxureTV** - scrapes **Title**, **Description**, **Tags**, and **Thumbnail image**
-- **SickJunk** (*New in v1.1*) - scrapes **Title**, **Description**, **Date**, **Tags**, and **Thumbnail image**
+- **Punishworld** (*New in v1.2*) - scrapes **Title**, **Performers**, **Date**, **Tags**, and **Thumbnail image**
+- **SickJunk** (*Added in v1.1*) - scrapes **Title**, **Description**, **Date**, **Tags**, and **Thumbnail image**
 
 ## Installation
 In Stash, go to **Settings → Metadata Providers → Add Source** and paste the source index URL above
