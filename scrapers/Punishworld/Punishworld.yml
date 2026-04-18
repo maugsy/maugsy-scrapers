@@ -1,9 +1,9 @@
-name: PunishWorld
+name: Punishworld
 sceneByURL:
   - action: script
     url:
       - punishworld.com
     script:
       - python
-      - PunishWorld.py
+      - Punishworld.py
       - scrapeURL
