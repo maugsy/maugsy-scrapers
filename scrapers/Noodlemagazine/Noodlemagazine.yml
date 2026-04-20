@@ -1,0 +1,9 @@
+name: Noodlemagazine
+sceneByURL:
+  - action: script
+    url:
+      - noodlemagazine.com/watch/
+    script:
+      - python
+      - Noodlemagazine.py
+      - scrapeURL
