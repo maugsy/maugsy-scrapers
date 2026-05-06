@@ -1,0 +1,9 @@
+name: TNAFLIX
+sceneByURL:
+  - action: script
+    url:
+      - tnaflix.com
+    script:
+      - python
+      - TNAFLIX.py
+      - scrapeURL
