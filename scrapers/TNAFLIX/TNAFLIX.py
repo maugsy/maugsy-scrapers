@@ -59,6 +59,32 @@ def scrape_url(url):
     except Exception:
         pass
 
+    try:
+        video_data_raw = tree.xpath('//div[@id="video-data"]/text()')
+        if video_data_raw:
+            video_data = json.loads(video_data_raw[0].strip())
+            tags_str = video_data.get('tags', '')
+            if tags_str:
+                result['Tags'] = [{'Name': t.strip()} for t in tags_str.split(',') if t.strip()]
+    except Exception:
+        pass
+
+    try:
+        performer_elements = tree.xpath('//a[contains(@class,"badge-kiss")]')
+        performers = []
+        for el in performer_elements:
+            name = el.text_content().strip()
+            href = el.get('href', '').strip()
+            if name:
+                performer = {'Name': name}
+                if href:
+                    performer['URL'] = href
+                performers.append(performer)
+        if performers:
+            result['Performers'] = performers
+    except Exception:
+        pass
+
     result['URLs'] = [url]
     return result
 
