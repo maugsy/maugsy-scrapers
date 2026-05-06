@@ -10,7 +10,7 @@ A collection of [Stash](https://github.com/stashapp/stash) scrapers made by maug
 * **Noodlemagazine** — scrapes **Title**, **Date**, **Tags**, and **Thumbnail**
 * **Punishworld** — scrapes **Title**, **Performers**, **Date**, **Tags**, and **Thumbnail**
 * **SickJunk** — scrapes **Title**, **Description**, **Date**, **Tags**, and **Thumbnail**
-* **TNAFLIX.COM** — scrapes **Title**, **Description**, **Date**, and **Thumbnail**
+* **TNAFLIX.COM** — scrapes **Title**, **Description**, **Date**, **Tags**, **Performers** and **Thumbnail**
 
 ## Installation
 
